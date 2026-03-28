@@ -1,0 +1,67 @@
+/* ── Trading Agent Dashboard — Dark Theme ──────────────────────────────── */
+
+/* Base */
+.main        { background-color: #0A0E1A !important; }
+.stApp       { background-color: #0A0E1A !important; }
+body         { color: #D0D6E0; font-family: 'Calibri', sans-serif; }
+
+/* Headings */
+h1, h2, h3, h4 { color: #C9A84C !important; }
+p, li, span     { color: #D0D6E0; }
+
+/* Streamlit elements */
+.stButton > button {
+    background-color: #0D1B2A;
+    color: #C9A84C;
+    border: 1px solid #C9A84C;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+.stButton > button:hover {
+    background-color: #C9A84C;
+    color: #0A0E1A;
+}
+
+/* Metric cards */
+.metric-card {
+    background: #0D1B2A;
+    border: 1px solid #C9A84C;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+.metric-value {
+    font-size: 26px;
+    font-weight: bold;
+    color: #C9A84C;
+}
+.metric-label {
+    font-size: 11px;
+    color: #8A94A8;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Status colors */
+.status-green { color: #00E676 !important; font-weight: bold; }
+.status-red   { color: #FF5252 !important; font-weight: bold; }
+.status-gold  { color: #C9A84C !important; font-weight: bold; }
+.status-cyan  { color: #00D4FF !important; font-weight: bold; }
+
+/* Signal card */
+.signal-card {
+    background: #0D1B2A;
+    border-left: 4px solid #00D4FF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+/* Dividers */
+hr { border-color: #1E2A3A; }
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: #0A0E1A; }
+::-webkit-scrollbar-thumb { background: #1E2A3A; border-radius: 3px; }
